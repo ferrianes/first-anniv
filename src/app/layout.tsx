@@ -4,7 +4,8 @@ import "./globals.css";
 
 const playwrite = La_Belle_Aurore({
   variable: "--font-playwrite",
-  weight: ["400"]
+  weight: ["400"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
