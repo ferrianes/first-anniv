@@ -1,5 +1,5 @@
 {
-  "name": "chorus",
+  "name": "first-anniv",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.120.4",
+    "@react-three/fiber": "^8.17.10",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^11.15.0",
     "lucide-react": "^0.469.0",
+    "mini-svg-data-uri": "^1.4.4",
     "motion": "^11.15.0",
     "next": "15.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.171.0",
+    "three-globe": "^2.37.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
